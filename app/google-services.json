@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "275070128490",
+    "firebase_url": "https://grocery-app-full.firebaseio.com",
+    "project_id": "grocery-app-full",
+    "storage_bucket": "grocery-app-full.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275070128490:android:8a4a072a7437f369705513",
+        "android_client_info": {
+          "package_name": "com.aezorspecialist.groceryadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275070128490-tgp1ait0rdfqic9j8ji4iqctseapp8tm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aezorspecialist.groceryadmin",
+            "certificate_hash": "d76ca4180bb13acac2f2bd5249c4a8d50d7e4dd9"
+          }
+        },
+        {
+          "client_id": "275070128490-oh4600jm12fn6cckoellfrt3j6f690qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMltN4zeOSFDhKdD2KOeKqrmaV-SRjTss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275070128490-oh4600jm12fn6cckoellfrt3j6f690qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275070128490:android:77dd09d803ca859c705513",
+        "android_client_info": {
+          "package_name": "com.aezorspecialist.groceryshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275070128490-h8c8vk450mjh8tqhui8ch1htgunkl4dg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aezorspecialist.groceryshop",
+            "certificate_hash": "d76ca4180bb13acac2f2bd5249c4a8d50d7e4dd9"
+          }
+        },
+        {
+          "client_id": "275070128490-oh4600jm12fn6cckoellfrt3j6f690qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMltN4zeOSFDhKdD2KOeKqrmaV-SRjTss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275070128490-oh4600jm12fn6cckoellfrt3j6f690qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

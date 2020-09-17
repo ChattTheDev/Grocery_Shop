@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aezorspecialist.groceryshop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditProfile" />
+        <activity android:name=".Special_Offers" />
+        <activity android:name=".OrderConfirmation" />
+        <activity android:name=".MyOrders" />
+        <activity android:name=".FinalCheckout" />
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".Products_From_Categories" />
+        <activity android:name=".Order_Products_Fetch"/>
+        <activity
+            android:name=".Product_Details"
+            android:parentActivityName=".User_Dashborad" />
+        <activity
+            android:name=".User_Dashborad"
+            android:label="@string/title_activity_user__dashborad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CartPage"
+            android:parentActivityName=".User_Dashborad" />
+        <activity android:name=".SignUpActivity" />
+        <service
+            android:name=".Services.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:name=".CustomerLoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_mTsLBPBe1EViaS" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

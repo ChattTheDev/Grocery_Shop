@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerLoginActivity"
+    android:background="@drawable/backgroundgradient"
+    android:orientation="vertical"
+    android:alpha="0.9">
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-light"
+                android:text="Welcome To"
+                android:textColor="#FBEA92"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/ricespicelogo"
+                android:layout_margin="20dp"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Please Login"
+                        android:textSize="30sp"
+                        android:fontFamily="cursive"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="20dp"
+                        android:textColor="@android:color/holo_green_dark"/>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="7dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/cusemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/ic_baseline_person_24"
+                            android:fontFamily="sans-serif-light"
+                            android:hint="Enter Your Email"
+                            android:inputType="textEmailAddress" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="7dp"
+                        app:passwordToggleEnabled="true"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/cuspass"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:hint="Enter Your Password"
+                            android:inputType="textPassword"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/cuslogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/buttonbackground"
+                        android:text="Log In" />
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal"
+                        android:text="Don't Have an Account?"
+                        android:textAlignment="center"
+                        android:textColor="#1A4E04"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:layout_editor_absoluteY="577dp" />
+                    <Button
+                        android:id="@+id/regbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/buttonbackground"
+                        android:text="Register"
+                        android:layout_margin="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+        
+        
+    </androidx.core.widget.NestedScrollView>
+
+    
+
+
+
+
+</LinearLayout>
